@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tasks</title>
+  <link rel="stylesheet" href="styles/bootstrap.css"/>
+  <link rel="stylesheet" href="styles/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <form id="myForm" onsubmit="return sendData(this)">
+        <div class="row">
+          <div class="col-12">
+            <label>
+              Email
+              <input name="email" type="email" placeholder="example@mail.ru">
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="phones">
+              <label>
+                Phone-1
+                <input name="phone" type="text">
+              </label>
+              <label>
+                Phone-2
+                <input name="phone" type="text">
+              </label>
+              <i onclick="addPhone()" class="fa fa-plus-square-o" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
