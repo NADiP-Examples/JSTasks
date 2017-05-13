@@ -7,3 +7,10 @@ function addPhone() {
     console.log('add Phone');
 //    ...
 }
+
+function removePhone(phone) {
+    console.log('Remove phone -->', phone);
+
+    // TODO: Пример удаления телефона
+    // phone.remove();
+}

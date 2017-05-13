@@ -3,5 +3,10 @@ label {
     display: inline-block;
 }
 
+.add {
+    font-size: 18pt;
+    color: green;
+}
+
 /*end Forms*/
 
